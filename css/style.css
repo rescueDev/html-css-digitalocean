@@ -81,7 +81,21 @@ header {
   background-color: #f3f5f9;
 }
 
+/* margini nested columns off */
 #margini-off {
   margin-right: 15px;
   margin-left: 15px;
+}
+
+#developers-sez {
+  background-color:#f3f5f9;
+}
+
+/* ccentratura coppia sezioni features e regions */
+.centratura-coppia {
+  padding: 0 15%;
+}
+
+#regions-sez {
+  background-color: #003ab7;
 }
