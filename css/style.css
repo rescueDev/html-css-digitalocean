@@ -43,6 +43,10 @@ header {
   width: 60%;
 }
 
+/* .navbar-header {
+  max-width: 15%;
+} */
+
 #jumbo-sez {
   background-image: url(../img/jumbotron.jpg);
   background-size: cover;
