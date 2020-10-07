@@ -96,6 +96,7 @@ header {
   padding: 0 15%;
 }
 
+/* background sezioni */
 #regions-sez {
   background-color: #003ab7;
 }
@@ -106,4 +107,8 @@ header {
 
 #pre-footer {
   background-color: #0033ad;
+}
+
+footer {
+  background-color: #031c4e;
 }
