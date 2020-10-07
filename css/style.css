@@ -51,8 +51,8 @@ header {
 
 /* stile login form */
 .login-form {
-  width: 340px;
-  margin: 50px auto;
+  width: 90%;
+  margin: 0 auto;
 }
 .login-form form {
   margin-bottom: 15px;
@@ -71,3 +71,8 @@ header {
   font-size: 15px;
   font-weight: bold;
   }
+
+/* sezione customers */
+#customers-sez {
+  background-color: #f3f5f9;
+}
