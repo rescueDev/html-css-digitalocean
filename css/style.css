@@ -1,3 +1,9 @@
+/* sovrascrittura container-fluid padding */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* regole generali */
 * {
   margin: 0;
@@ -25,3 +31,6 @@ img {
 }
 
 /* regole pagina */
+.centratura-page {
+  padding:0 10%;
+}
