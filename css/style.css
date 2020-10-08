@@ -357,3 +357,14 @@ footer h4 {
     display: inline;
   }
 }
+
+@media all and (min-width:768px) and (max-width:991px) {
+
+  #list-deploy {
+    text-align: center;
+  }
+
+  #list-deploy li {
+    display: inline;
+  }
+}
