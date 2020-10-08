@@ -60,8 +60,6 @@ img {
   margin-left: 0;
 }
 
-
-
 /* brand logo  autoresizing */
 .navbar-brand > img {
     max-height: 100%;
@@ -70,8 +68,6 @@ img {
     object-fit: contain;
   }
 
-
-
 /* jumbotron */
 #jumbo-sez {
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
@@ -79,6 +75,7 @@ img {
   background-position: center;
 }
 
+/* stili testo jumbotron */
 #jumbo-sx {
   margin: 5% auto;
 }
@@ -136,6 +133,7 @@ img {
   height: 77px;
 }
 
+/* stili testo sezione customers */
 #customers-sez h4 {
   color: #6f7b97;
   font-weight: bold;
@@ -146,6 +144,7 @@ img {
   padding-bottom:5%;
 }
 
+/* stili testo sezion deploy */
 #deploy-sez h2 {
   color: #031c4e;
   font-weight: bold;
@@ -185,6 +184,7 @@ img {
   padding-bottom: 5%;
 }
 
+/* stili testo developers */
 #developers-sez h2 {
   color: #031c4e;
   font-weight: bold;
@@ -196,6 +196,7 @@ img {
   line-height: 30px;
 }
 
+/* padding carousel */
 #carousel-example-generic {
   margin-top: 5%;
   margin-bottom: 5%
@@ -317,6 +318,7 @@ img {
   background-color: #0033ad;
 }
 
+/* sezione footer */
 footer {
   background-color: #031c4e;
 }
@@ -337,10 +339,6 @@ footer a {
 
 footer h4 {
   color:white;
-}
-
-#logo-footer {
-  /* padding-right: 1%; */
 }
 
 #logo-footer p {
@@ -378,7 +376,12 @@ footer h4 {
   }
 }
 
+/* media query sm */
 @media all and (min-width:768px) and (max-width:991px) {
+
+  #jumbo-sx h1 {
+    font-size: 40px;
+  }
 
   #list-deploy {
     text-align: center;
@@ -387,4 +390,22 @@ footer h4 {
   #list-deploy li {
     display: inline;
   }
+
+}
+
+/* media query MD */
+@media all and (min-width:992px) and (max-width:1199px) {
+  #jumbo-sx h1 {
+    font-size: 50px;
+  }
+
+}
+
+/* media query LG */
+@media all and (min-width:1200px) {
+
+  #jumbo-sx h1 {
+    font-size: 60px;
+  }
+
 }
