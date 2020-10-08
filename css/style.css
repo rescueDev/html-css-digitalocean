@@ -89,6 +89,7 @@ img {
 #customers-sez {
   background-color: #f3f5f9;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #customers-sez h4 {
@@ -96,12 +97,20 @@ img {
   font-weight: bold;
 }
 
+#deploy-sez {
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
 #deploy-sez h2 {
   color: #031c4e;
+  font-weight: bold;
 }
 
 #deploy-sez h4 {
   color: gray;
+  line-height: 30px;
+
 }
 
 /* margini nested columns off */
@@ -132,33 +141,71 @@ img {
   padding-bottom: 5%;
 }
 
+#developers-sez h2 {
+  color: #031c4e;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+#developers-sez h3 {
+  color: gray;
+  line-height: 30px;
+}
+
+#carousel-example-generic {
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
 /* centratura coppia sezioni features e regions */
 .centratura-coppia {
   padding: 5% 15%;
 }
 
-#feature-sez {
+#features-sez {
   padding-top: 5%;
   padding-bottom: 5%;
-
 }
 
+#features-sez h2 {
+  color: #031c4e;
+  font-weight: bold;
+}
 
+#features-sez h3 {
+  color: #031c4e;
+}
+
+.features-needs h4 {
+  color:#031c4e;
+}
 
 /* background sezioni */
 #regions-sez {
   background-color: #003ab7;
 }
 
-
 #regions-contenitore {
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
+#regions-contenitore h2 {
+  color:white;
+  font-weight: bold;
+}
+
 #regions-sez ul li {
   display: inline;
   padding: 10px;
+}
+
+.loc-white {
+  color:white;
+}
+
+.loc-gray {
+  color:lightgray;
 }
 
 .speed-test-contenitore {
@@ -171,6 +218,32 @@ img {
   padding-bottom:5%;
 }
 
+#up-reviews {
+  padding-bottom: 5%;
+}
+
+#up-reviews h2 {
+  color:#031c4e;
+  font-weight: bold;
+}
+#down-reviews {
+  background-color: white;
+}
+
+#rockerbox-img {
+  padding: 5% 0;
+}
+
+#down-reviews h4 {
+  color: gray;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+#down-reviews  {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 #get-started-sez {
   padding-top:5%;
