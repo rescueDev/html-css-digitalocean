@@ -125,6 +125,11 @@ img {
   padding-bottom: 5%;
 }
 
+.loghi-customers img {
+  width: 100px;
+  height: 77px;
+}
+
 #customers-sez h4 {
   color: #6f7b97;
   font-weight: bold;
