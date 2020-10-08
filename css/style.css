@@ -245,6 +245,10 @@ img {
   padding:5%;
 }
 
+.speed-test-contenitore a {
+  float: right;
+}
+
 #reviews-sez {
   background-color: #f3f5f9;
   padding-top:5%;
