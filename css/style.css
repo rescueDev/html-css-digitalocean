@@ -20,8 +20,8 @@ img {
 
 [class*="col-"] {
   min-height: 100px;
-  background-color: lightgreen;
-  border: solid 1px  #000;
+  /* background-color: lightgreen; */
+  /* border: solid 1px  #000; */
   padding: 2px;
 }
 
@@ -88,17 +88,27 @@ img {
 /* sezione customers */
 #customers-sez {
   background-color: #f3f5f9;
+  padding-top: 5%;
 }
 
-/* .loghi-customers img {
-  width: 100%;
-  height: 100%;
-} */
+#customers-sez h4 {
+  color: #6f7b97;
+  font-weight: bold;
+}
+
+#deploy-sez h2 {
+  color: #031c4e;
+}
+
+#deploy-sez h4 {
+  color: gray;
+}
 
 /* margini nested columns off */
 #margini-off {
   margin-right: 15px;
   margin-left: 15px;
+  padding-top: 5%;
 }
 
 .mini-box {
@@ -107,22 +117,43 @@ img {
   margin: 0 auto;
 }
 
-#developers-sez {
-  background-color:#f3f5f9;
+#list-deploy {
+  padding-top: 5%;
 }
 
-/* ccentratura coppia sezioni features e regions */
-.centratura-coppia {
-  padding: 0 15%;
+#list-deploy li {
+  padding: 2%;
+  font-size: 20px;
 }
+
+#developers-sez {
+  background-color:#f3f5f9;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* centratura coppia sezioni features e regions */
+.centratura-coppia {
+  padding: 5% 15%;
+}
+
+#feature-sez {
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+
 
 /* background sezioni */
 #regions-sez {
   background-color: #003ab7;
 }
 
-#reviews-sez {
-  background-color: #f3f5f9;
+
+#regions-contenitore {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #regions-sez ul li {
@@ -134,6 +165,17 @@ img {
   padding:5%;
 }
 
+#reviews-sez {
+  background-color: #f3f5f9;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+
+#get-started-sez {
+  padding-top:5%;
+  padding-bottom:5%;
+}
 
 #pre-footer {
   background-color: #0033ad;
@@ -143,8 +185,31 @@ footer {
   background-color: #031c4e;
 }
 
+#footer-sez {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 
 
 #loghi-social i {
   font-size: 30px;
+}
+
+.text-menu-footer li {
+  padding: 2% 0;
+}
+
+
+/* media query XS */
+
+@media all and (max-width:767px) {
+
+  #list-deploy {
+    text-align: center;
+  }
+
+  #list-deploy li {
+    display: inline;
+  }
 }
