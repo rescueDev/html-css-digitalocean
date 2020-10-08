@@ -35,22 +35,35 @@ img {
   padding:0 10%;
 }
 
-header {
-  /* background-color: red; */
-}
-
-.navbar-default #logo-navbar img {
-  width: 60%;
+.centratura-nav {
+  padding: 0 5%;
 }
 
 /* .navbar-header {
-  max-width: 15%;
+  max-width:25%;
 } */
 
+/* #logo-navbar {
+  max-width: 50%;
+} */
+
+/* brand logo  autoresizing */
+.navbar-brand > img {
+    max-height: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  li .active {
+    padding: 0 2%;
+  }
+
+/* jumbotron */
 #jumbo-sez {
-  background-image: url(../img/jumbotron.jpg);
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-size: cover;
-  background-color: red;
+  background-position: center;
 }
 
 /* stile login form */
@@ -80,6 +93,11 @@ header {
 #customers-sez {
   background-color: #f3f5f9;
 }
+
+/* .loghi-customers img {
+  width: 100%;
+  height: 100%;
+} */
 
 /* margini nested columns off */
 #margini-off {
