@@ -39,13 +39,22 @@ img {
   padding: 0 5%;
 }
 
-/* .navbar-header {
-  max-width:25%;
-} */
+/* margini navbar e dropdown */
+#margini-off-nav {
+  margin-right: 0;
+  margin-left: 0;
+}
 
-/* #logo-navbar {
-  max-width: 50%;
-} */
+#margine-sotto-nav-off {
+  margin-bottom:0;
+}
+
+#bs-example-navbar-collapse-1  {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
 
 /* brand logo  autoresizing */
 .navbar-brand > img {
@@ -55,11 +64,17 @@ img {
     object-fit: contain;
   }
 
+
+
 /* jumbotron */
 #jumbo-sez {
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-size: cover;
   background-position: center;
+}
+
+#jumbo-sx {
+  margin: 5% auto;
 }
 
 #jumbo-sx h1 {
@@ -72,10 +87,18 @@ img {
   font-weight: bold;
 }
 
+#jumbo-dx h2 {
+  font-weight: bold;
+}
+
+#get-blue {
+  color:#006aff;
+}
+
 /* stile login form */
 .login-form {
   width: 100%;
-  margin: 0 auto;
+  margin: 5% auto;
 }
 .login-form form {
   margin-bottom: 15px;
