@@ -62,9 +62,19 @@ img {
   background-position: center;
 }
 
+#jumbo-sx h1 {
+  color: white;
+  font-weight: bolder;
+}
+
+#jumbo-sx h3 {
+  color:lightgray;
+  font-weight: bold;
+}
+
 /* stile login form */
 .login-form {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 .login-form form {
@@ -250,6 +260,16 @@ img {
   padding-bottom:5%;
 }
 
+#get-started-text h2 {
+  color:white;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+#get-started-text {
+  padding-bottom: 5%;
+}
+
 #pre-footer {
   background-color: #0033ad;
 }
@@ -263,10 +283,38 @@ footer {
   padding-bottom: 5%;
 }
 
+#logo-footer, #loghi-social {
+  color:#7d889f;
+}
 
+
+footer a {
+  color:#7d889f;
+}
+
+footer h4 {
+  color:white;
+}
+
+#logo-footer {
+  /* padding-right: 1%; */
+}
+
+#logo-footer p {
+  padding-top: 5%;
+}
+
+#loghi-social {
+  padding-bottom:5%;
+}
 
 #loghi-social i {
   font-size: 30px;
+}
+
+.text-menu-footer {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .text-menu-footer li {
