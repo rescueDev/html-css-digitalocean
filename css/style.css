@@ -374,6 +374,13 @@ footer h4 {
   #list-deploy li {
     display: inline;
   }
+
+  .text-menu-footer ul li  {
+    font-size:18px;
+    paddin-top:5%;
+    paddin-bottom:5%;
+  }
+
 }
 
 /* media query sm */
@@ -391,6 +398,11 @@ footer h4 {
     display: inline;
   }
 
+  .text-menu-footer ul li  {
+    font-size:16px;
+    paddin-top:5%;
+    paddin-bottom:5%;
+  }
 }
 
 /* media query MD */
